@@ -1,2 +1,4 @@
-# JDF-React
-Curso de react
+# React
+Curso de aprendizaje de React
+
+Jhon Damian Flores
