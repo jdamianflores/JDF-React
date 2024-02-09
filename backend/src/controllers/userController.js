@@ -14,8 +14,6 @@ usersCtrl.createUsers = async (req, res) => {
     res.json('User created');
 };
 
-//usersCtrl.updateUsers = (req, res) => res.json({message: 'User update'});
-
 usersCtrl.deleteUsers= async (req, res) => {
     await User.findByIdAndDelete(req.params.id);
     res.json( 'User delete');
