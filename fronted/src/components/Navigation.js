@@ -14,9 +14,9 @@ export default class Navigation extends Component {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto">
-              <Link className="nav-link" to="/">Notes</Link>
-              <Link className="nav-link" to="/create">Create Note</Link>
-              <Link className="nav-link" to="/user">Create User</Link>
+              <Link className="nav-link" to="/">Notas</Link>
+              <Link className="nav-link" to="/create">Crear Nota</Link>
+              <Link className="nav-link" to="/user">Crear Usuario</Link>
             </div>
           </div>
         </div>
