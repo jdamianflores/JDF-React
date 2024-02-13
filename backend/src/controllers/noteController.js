@@ -4,7 +4,7 @@ const Note = require('../models/Note');
 
 notesCtrl.getNotes = async (req, res) => {
     const notes = await Note.find();
-    res.json(notes);
+    res.json({notes});
 };
 
 notesCtrl.createNotes = async (req, res) => {

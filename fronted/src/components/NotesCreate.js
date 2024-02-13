@@ -18,8 +18,8 @@ export default class NotesCreate extends Component {
   componentDidMount = async () => {
     const res = await axios.get('http://localhost:4000/api/users');
     this.setState({
-      users: res.data.map(user => user.username),
-      userSelected: res.data[0].username
+      users: res.data.users.map(user => user.username),
+      userSelected: res.data.users[0].username
     });
   
     // Verificar si el parametro id esta definido

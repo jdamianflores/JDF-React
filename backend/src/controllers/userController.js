@@ -4,7 +4,8 @@ const User = require('../models/User');
 
 usersCtrl.getUsers = async (req, res) => {
     const users = await User.find();
-    res.json(users)
+    //res.json(users)
+    res.json({users})//para mejor estructura Objeto Users
 };
 
 usersCtrl.createUsers = async (req, res) => {
